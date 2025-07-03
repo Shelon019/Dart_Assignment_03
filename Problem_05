@@ -1,0 +1,10 @@
+double areaOfCircle(double radius) {
+  const double pi = 3.1416;
+  return pi * radius * radius;
+}
+
+void main() {
+  double radius = 5;
+  double area = areaOfCircle(radius);
+  print('Area of the circle with radius $radius is $area');
+}
