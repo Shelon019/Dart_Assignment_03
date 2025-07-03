@@ -1,0 +1,9 @@
+bool isEven(int number) {
+  return number % 2 == 0;
+}
+
+void main() {
+  int num = 8;
+  bool result = isEven(num);
+  print('$num is even: $result');
+}
