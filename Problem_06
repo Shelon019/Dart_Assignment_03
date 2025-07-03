@@ -1,0 +1,9 @@
+String reverseString(String input) {
+  return input.split('').reversed.join();
+}
+
+void main() {
+  String text = 'Shelon';
+  String reversed = reverseString(text);
+  print('Reversed String: $reversed');
+}
